@@ -28,7 +28,7 @@ const DiscountCodeInput: React.FC = () => {
         type="text"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Enter discount code"
+        placeholder="Enter discount code eg. NEWCODE123"
         className="border p-2 w-full"
       />
       {error && <p className="text-red-500">{error}</p>}
