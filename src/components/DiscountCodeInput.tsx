@@ -9,7 +9,7 @@ const DiscountCodeInput: React.FC = () => {
   const dispatch = useDispatch();
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value.toUpperCase(); // Convert input to uppercase
+    const value = event.target.value.toUpperCase();
     setInputValue(value);
 
     if (validateCode(value)) {
